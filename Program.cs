@@ -1,19 +1,33 @@
-﻿using System.Runtime.Serialization;
+﻿using System.Collections.Concurrent;
+using System.Runtime.Serialization;
 using pratica_de_cs3.Models;
 
 
-Aluno a1 = new Aluno();
-a1.Nome = "Pedro Vinícius";
-a1.Idade = 20;
-a1.Email = "test@aluno.com";
-a1.Nota = 10;
-a1.Apresentar();
+Corrente c = new Corrente();
+c.Creditar(1000);
+c.ExibirSaldo();
 
-Professor p1 = new Professor();
-p1.Nome = "Barreto";
-p1.Idade = 30;
-p1.Salario = 1000;
-p1.Apresentar();
+
+
+
+
+
+
+
+
+
+// Aluno a1 = new Aluno();
+// a1.Nome = "Pedro Vinícius";
+// a1.Idade = 20;
+// a1.Email = "test@aluno.com";
+// a1.Nota = 10;
+// a1.Apresentar();
+
+// Professor p1 = new Professor();
+// p1.Nome = "Barreto";
+// p1.Idade = 30;
+// p1.Salario = 1000;
+// p1.Apresentar();
 
 
 
