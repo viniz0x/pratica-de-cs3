@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace pratica_de_cs3.Models
 {
-    public sealed class Professor : Pessoa
+    public class Professor : Pessoa
     {
         public Professor() {
             
@@ -14,7 +14,7 @@ namespace pratica_de_cs3.Models
 
         }
         public decimal Salario { get; set; }
-        public override void Apresentar()
+        public sealed override void Apresentar()
         {
             Console.WriteLine($"Olá, meu nome é {Nome}, Sou professor e tenho {Idade} de idade e recebo {Salario}");
         }
