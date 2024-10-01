@@ -1,9 +1,24 @@
 ﻿using System.Collections.Concurrent;
 using System.Runtime.Serialization;
+using pratica_de_cs3.Interfaces;
 using pratica_de_cs3.Models;
 
-Computador computador = new Computador();
-Console.WriteLine(computador.ToString());
+ICalculadora calculadora = new Calculadora();
+Console.WriteLine(calculadora.Multiplicar(2, 3));
+
+
+
+
+
+
+
+
+
+
+
+
+// Computador computador = new Computador();
+// Console.WriteLine(computador.ToString());
 
 
 
