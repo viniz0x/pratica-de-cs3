@@ -7,7 +7,12 @@ namespace pratica_de_cs3.Models
 {
     public class Aluno : Pessoa //Herança sendo aplicado
     {
-        public Aluno(string nome) : base(nome){}
+        public Aluno() {
+            
+        }
+        public Aluno(string nome) : base(nome) {
+
+        }
         public int Nota { get; set; }
         public override void Apresentar() // Polimorfismo sendo aplicado
         {

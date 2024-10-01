@@ -7,8 +7,10 @@ namespace pratica_de_cs3.Models
 {
     public class Pessoa
     {
-        public Pessoa(string nome)
-        {
+        public Pessoa() {
+            
+        }
+        public Pessoa(string nome) {
             Nome = nome;            
         }
         public string Nome { get; set; }
