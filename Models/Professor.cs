@@ -14,7 +14,7 @@ namespace pratica_de_cs3.Models
 
         }
         public decimal Salario { get; set; }
-        public sealed override void Apresentar()
+        public override void Apresentar()
         {
             Console.WriteLine($"Olá, meu nome é {Nome}, Sou professor e tenho {Idade} de idade e recebo {Salario}");
         }
