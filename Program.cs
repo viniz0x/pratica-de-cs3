@@ -2,10 +2,23 @@
 using System.Runtime.Serialization;
 using pratica_de_cs3.Models;
 
+Pessoa p1 = new Pessoa("Pedro");
+Aluno a1 = new Aluno("Hugo");
+a1.Apresentar();
+Professor prof = new Professor("Matheus");
 
-Corrente c = new Corrente();
-c.Creditar(1000);
-c.ExibirSaldo();
+
+
+
+
+
+
+
+
+
+// Corrente c = new Corrente();
+// c.Creditar(1000);
+// c.ExibirSaldo();
 
 
 
